@@ -1,0 +1,3 @@
+id='1', name='qwe', chinese=123, math=122, english=143, sum=388
+id='3', name='qwer', chinese=50, math=135, english=134, sum=319
+id='2', name='qwe', chinese=34, math=67, english=34, sum=135
