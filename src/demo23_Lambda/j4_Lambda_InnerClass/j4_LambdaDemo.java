@@ -1,5 +1,16 @@
 package demo23_Lambda.j4_Lambda_InnerClass;
 
+/*匿名内部类和Lambda表达式的区别
+所需类型不同
+    匿名内部类：可以是接口，也可以是抽象类，还可以是具体类
+    Lambda表达式：只能是接口
+使用限制不同
+    如果接口中有且仅有一个抽象方法，可以使用Lambda表达式，也可以使用匿名内部类
+    如果接口中多于一个抽象方法，只能使用匿名内部类，而不能使用Lambda表达式
+实现原理不同
+    匿名内部类：编译之后，产生一个单独的.class字节码文件
+    Lambda表达式：编译之后，没有一个单独的.class字节码文件。对应的字节码会在运行的时候动态生成
+* */
 public class j4_LambdaDemo {
     public static void main(String[] args) {
         // 1.匿名内部类作为参数可用于实现接口、实例化抽象类、实例化普通类（具体类）
