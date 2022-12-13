@@ -1,4 +1,4 @@
-package demo23_Lambda.j5_Update_Inter;
+package demo23_Lambda.j5_Update_Interface;
 
 public class MyClassImpl2 implements MyInterface{
     @Override

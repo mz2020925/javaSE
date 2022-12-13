@@ -1,4 +1,4 @@
-package demo23_Lambda.j5_Update_Inter;
+package demo23_Lambda.j5_Update_Interface;
 
 public class MyClassImpl1 implements MyInterface{
     @Override
@@ -13,6 +13,7 @@ public class MyClassImpl1 implements MyInterface{
 
     @Override
     public void show3() {
-        System.out.println("这是重写方法MyClassImpl1.show3()");
+        System.out.println("这是重写默认方法MyClassImpl1.show3()");
     }
+
 }

@@ -8,7 +8,7 @@ Lambda表达式的使用前提
 public class j2_lambda_return_argus {
     public static void main(String[] args) {
         // 1.使用Lambda表达式的情况下，其中的接口中只能由一个抽象方法
-        // Lambda表达式在这里作用是什么？--写了实现接口的类、重写了抽象方法、然后多态创建了实例化接口的对象，最后该对象被赋给某个引用
+        // Lambda表达式在这里作用是什么？--写了实现接口的类、重写了抽象方法、然后多态创建了实例化类的对象，最后该对象被赋给某个引用
         Add add = (int a, int b) -> {
             return a + b;  // 这里给Lambda表达式增加了返回值，和输入参数
         };
@@ -16,7 +16,7 @@ public class j2_lambda_return_argus {
         System.out.println(summer);
 
         // 2.Lambda表的式的另一个用法
-        // Lambda表达式在这里作用是什么？--写了实现接口的类、重写了抽象方法、然后多态创建了实例化接口的对象、最后该对象被传给方法useAdd()
+        // Lambda表达式在这里作用是什么？--写了实现接口的类、重写了抽象方法、然后多态创建了实例化类的对象，最后该对象被传给方法useAdd()
         useAdd((int a, int b) -> {
             return a + b;
         }, 10, 20);
