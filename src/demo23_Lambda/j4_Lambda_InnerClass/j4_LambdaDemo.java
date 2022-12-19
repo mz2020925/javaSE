@@ -17,14 +17,14 @@ public class j4_LambdaDemo {
         useAnimal(new Animal() {
             @Override
             public void eat() {
-                System.out.println("实例化抽象类");
+                System.out.println("1.1实例化抽象类");
             }
         });
         useDog(new Dog(){
             @Override
             public void eatMeat(){
                 // 重写了具体类中的方法
-                System.out.println("实例化具体类");
+                System.out.println("1.2实例化具体类");
             }
         });
         // 目前只有匿名内部类这里可以怎么写：new 接口名()，前面Lambda表达式都不能这么写
@@ -32,7 +32,7 @@ public class j4_LambdaDemo {
         useInter(new Inter() {
             @Override
             public void speakEnglish() {
-                System.out.println("实现接口");
+                System.out.println("1.3实现接口");
             }
         });
 
