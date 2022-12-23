@@ -16,15 +16,22 @@ public class j5_concat_distinct {
 
         //需求1：取前4个数据组成一个流
         Stream<String> stream1 = strArrList.stream().limit(4);
+        // stream1.forEach(System.out::println);
+        System.out.println("---------");
 
         //需求2：跳过2个数据组成一个流
         Stream<String> stream2 = strArrList.stream().skip(2);
+        // stream2.forEach(System.out::println);
+        System.out.println("---------");
 
         //需求3：合并需求1和需求2得到的流，并把结果在控制台输出
-        Stream.concat(stream1, stream2).forEach(System.out::println);
+        // Stream<String> concat = Stream.concat(stream1, stream2);
+        // concat.forEach(System.out::println);
+        System.out.println("---------");
 
         //需求4：合并需求1和需求2得到的流，并把结果在控制台输出，要求字符串元素不能重复
-        Stream.concat(stream1, stream2).distinct().forEach(System.out::println);
+        Stream<String> distinct = Stream.concat(stream1, stream2).distinct();
+        distinct.forEach(System.out::println);
 
     }
 }

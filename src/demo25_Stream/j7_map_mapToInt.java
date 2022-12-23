@@ -21,12 +21,10 @@ public class j7_map_mapToInt {
         // 需求：将集合中的字符串数据转换为整数之后在控制台输出
         strArrList.stream().map(s->Integer.parseInt(s)).forEach(System.out::println);
         strArrList.stream().map(Integer::parseInt).forEach(System.out::println);
-        strArrList.stream().map(Integer::parseInt)
         strArrList.stream().mapToInt(Integer::parseInt).forEach(System.out::println);
-
+        System.out.println("---------");
         // 需求2：int sum() 返回此流中元素的总和
         int sum = strArrList.stream().mapToInt(Integer::parseInt).sum();
         System.out.println(sum);
-        strArrList.parallelStream()
     }
 }
