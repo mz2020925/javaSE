@@ -39,11 +39,11 @@ public class j2_Student {
     }
 
     public void method2(String s) {
-        System.out.println("method2" + s);
+        System.out.println("method2被调用：" + s);
     }
 
     public String method3(String s, int i) {
-        return s + "," + i;
+        return s + ",method3被调用," + i;
     }
 
     public String getName() {

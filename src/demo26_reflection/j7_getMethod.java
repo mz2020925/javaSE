@@ -45,6 +45,7 @@ public class j7_getMethod {
             // args：方法需要的参数
             method2.invoke(obj);
 
+            // 4.方法getDeclaredMethod() -- 获取本类所有成员方法中的一个方法
 
         } catch (ClassNotFoundException | NoSuchMethodException | InstantiationException | IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
