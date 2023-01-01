@@ -1,12 +1,13 @@
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class test {
 
     public static void main(String[] args) {
-//        File file = new File("test.txt");
-//        System.out.println(file.getAbsolutePath());
-//        System.out.println(System.getProperty("user.dir"))
+        Random random = new Random();
+        int anInt = random.nextInt(0);
+        System.out.println(anInt);
 
     }
 }
