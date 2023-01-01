@@ -1,4 +1,4 @@
-package demo29_jdk8_LocalDateTime;
+package demo29_JDK8_LocalDateTime;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

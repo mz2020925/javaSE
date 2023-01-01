@@ -1,6 +1,4 @@
-package demo26_reflection;
-
-import demo23_Lambda.j8_reference_construction.Student;
+package demo26_Reflection;
 
 public class j2_Student {
     // 成员变量：一个私有，一个默认，一个公共

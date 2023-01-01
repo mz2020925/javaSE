@@ -1,4 +1,4 @@
-package demo19_std_IO_objectStream;
+package demo19_Std_IO_ObjectStream;
 /*
 打印流分类：
     字节打印流：PrintStream

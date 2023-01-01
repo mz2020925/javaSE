@@ -1,4 +1,4 @@
-package demo26_reflection;
+package demo26_Reflection;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

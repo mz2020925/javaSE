@@ -1,4 +1,4 @@
-package demo19_std_IO_objectStream;
+package demo19_Std_IO_ObjectStream;
 /*《复习》
 字节流：
 * 字节输出流抽象类 -- OutputStream

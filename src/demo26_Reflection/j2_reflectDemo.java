@@ -1,4 +1,4 @@
-package demo26_reflection;
+package demo26_Reflection;
 
 
 /*
@@ -21,7 +21,7 @@ public class j2_reflectDemo {
 
         //使用Class类中的静态方法forName(String className)
         // 这种方式常用于配置中
-        Class<?> c4 = Class.forName("demo26_reflection.j2_Student");
+        Class<?> c4 = Class.forName("demo26_Reflection.j2_Student");
         System.out.println(c1 == c4);
 
     }

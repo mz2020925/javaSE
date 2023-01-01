@@ -1,6 +1,5 @@
-package demo26_reflection.j10_reflect_txt;
+package demo26_Reflection.j10_reflect_txt;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Constructor;

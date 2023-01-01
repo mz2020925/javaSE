@@ -1,4 +1,4 @@
-package demo26_reflection;
+package demo26_Reflection;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -9,7 +9,7 @@ public class j8_getMethod_example {
         Class<?> c = null;
         try {
             // 1.获取Class对象
-            c = Class.forName("demo26_reflection.j2_Student");
+            c = Class.forName("demo26_Reflection.j2_Student");
             // 2.通过获取公共无参构造方法对象，创建对象
             Constructor<?> con = c.getConstructor();
             Object obj = con.newInstance();

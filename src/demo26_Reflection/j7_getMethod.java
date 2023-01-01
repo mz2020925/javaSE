@@ -1,4 +1,4 @@
-package demo26_reflection;
+package demo26_Reflection;
 
 
 import java.lang.reflect.Constructor;
@@ -19,7 +19,7 @@ public class j7_getMethod {
     public static void main(String[] args) {
         try {
             // 1.获取Class对象
-            Class<?> c = Class.forName("demo26_reflection.j2_Student");
+            Class<?> c = Class.forName("demo26_Reflection.j2_Student");
             // 2.方法getMethods() -- 获取本类和所继承的类 的公共成员方法
             Method[] methods = c.getMethods();
             for (Method method : methods) {

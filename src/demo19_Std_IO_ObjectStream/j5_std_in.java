@@ -1,4 +1,4 @@
-package demo19_std_IO_objectStream;
+package demo19_Std_IO_ObjectStream;
 
 import java.io.*;
 import java.util.Scanner;

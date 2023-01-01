@@ -1,4 +1,4 @@
-package demo26_reflection;
+package demo26_Reflection;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -19,7 +19,7 @@ public class j5_getFiled {
     public static void main(String[] args) {
         try {
             // 1.获取Class对象 -- 获取字节码文件对象
-            Class<?> c = Class.forName("demo26_reflection.j2_Student");
+            Class<?> c = Class.forName("demo26_Reflection.j2_Student");
 
             // 2.Field[] getFields(); 返回一个包含Field对象的数组，Field对象包括类或接口的所有可访问的公共字段
             Field[] fields = c.getFields();

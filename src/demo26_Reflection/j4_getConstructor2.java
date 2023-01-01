@@ -1,4 +1,4 @@
-package demo26_reflection;
+package demo26_Reflection;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -6,7 +6,7 @@ import java.lang.reflect.InvocationTargetException;
 public class j4_getConstructor2 {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         // 1.获取字节码文件对象
-        Class<?> c = Class.forName("demo26_reflection.j2_Student");
+        Class<?> c = Class.forName("demo26_Reflection.j2_Student");
 
         // 2.得到公共带参构造方法对象con，注意getConstructor的参数类型要是对应的Class类型
         // 基本数据类型也可以通过.class得到对应的Class类型

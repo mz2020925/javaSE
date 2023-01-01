@@ -1,4 +1,4 @@
-package demo26_reflection;
+package demo26_Reflection;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -16,7 +16,7 @@ Constructor getDeclaredConstructor(Class<?>... parameterTypes)  --  返回单个
 * */
 public class j3_getConstructor {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
-        Class<?> c = Class.forName("demo26_reflection.j2_Student");
+        Class<?> c = Class.forName("demo26_Reflection.j2_Student");
 
         // 1.Constructor<?>[] getConstructors()
         // 返回一个包含Constructor对象的数组，Constructor对象反映了由该Class对象表示的类的所有公共构造函数
