@@ -1,10 +1,14 @@
 package demo19_Std_IO_ObjectStream;
 
+import org.junit.Test;
+
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+
 public class j4_try_catch {
+
     public static void main(String[] args) {
 
     }
@@ -78,7 +82,16 @@ public class j4_try_catch {
         FileReader fr = new FileReader("myFile2/charStream.txt");
         FileWriter fw = new FileWriter("myFile2/charStream2.txt");
         // 注意这里是分号
-        try (fr; fw) {
+        /*try (fr; fw) { // jdk8不支持这样的语法
+            char[] chars = new char[1024];
+            int len;
+            while ((len = fr.read(chars)) != -1) {
+                fw.write(chars, 0, len);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
+        try {
             char[] chars = new char[1024];
             int len;
             while ((len = fr.read(chars)) != -1) {

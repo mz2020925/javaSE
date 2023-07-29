@@ -17,12 +17,12 @@ public interface MyInterface {
 
     // 私有方法--情形：抽取重复代码函数体写成私有方法供接口中的默认方法调用，
     // 普通抽象方法没有方法体，谈不上调用，静态方法是不能调用非静态方法的。
-    private void show5(){
+    /*private void show5(){  // jdk8中不支持这种语法
         System.out.println("这是接口中的私有方法show5()");
-    }
+    }*/
 
     // 私有静态方法--情形：私有静态方法既可以被默认方法调用，也可以被静态方法调用
-    private static void show6(){
+    /*private static void show6(){  // jdk8中不支持这种语法
         System.out.println("这是接口中的私有静态方法show5()");
-    }
+    }*/
 }

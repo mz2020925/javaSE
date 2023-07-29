@@ -28,9 +28,9 @@ public class j11_TCP_client6 {
         // 自定义文件发送完毕的标记,定义结束标记的目的是因为程序会一直处于等待状态，造成这个问题的原因是服务端接收数据的方式是阻塞式的
         // 但是这么做的弊端就是当文件中含有886这个字符时，文件上传就会终止再886字符这里
         // 因此，我们换一种做法--调用方法socket.shutdownOutput();
-        //bufferedWriter.write("886");
-        //bufferedWriter.newLine();
-        //bufferedWriter.flush();
+        // bufferedWriter.write("886");
+        // bufferedWriter.newLine();
+        // bufferedWriter.flush();
         socket.shutdownOutput();
 
         // 接收反馈

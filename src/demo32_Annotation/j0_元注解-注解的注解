@@ -1,0 +1,20 @@
+@Retention
+    该注解用于修饰注解，表示被修饰的注解可以保留多长时间。
+    一个参数:
+        RetentionPolicy value:
+        若value = RetentionPolicy.CLASS，表示编译器把注解记录在class文件中，当运行java程序时，JVM不可获取注解信息。这是默认值。
+        若value = RetentionPolicy.RUNTIME，表示编译器把注解记录在class文件中，当运行java程序时，JVM可以获取注解信息。这是开发中常用。
+        若value = RetentionPolicy.SOURCE，表示注解只保留在源代码中，编译器直接丢弃这种注解。
+
+@Target
+    该注解用于修饰注解，表示被修饰的注解可以修饰哪些“代码元素”，如：接口、类、枚举、注解、类字段(成员变量)、方法、方法参数等等。
+    一个参数:
+        ElementType value:
+        value = ElementType.TYPE，可修饰接口、类、枚举、注解。
+        value = ElementType.FIELD，可修饰属性字段、枚举的常量。
+        value = ElementType.METHOD，可修饰方法。
+        value = ElementType.PARAMETER，可修饰方法参数。
+        value = ElementType.CONSTRUCTOR，可修饰构造方法。
+        value = ElementType.LOCAL_VARIABLE，可修饰局部变量。
+
+

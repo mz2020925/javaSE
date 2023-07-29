@@ -1,0 +1,8 @@
+断言：其实就是判断。
+    单元测试用于判断某个特定条件下某个方法的行为。
+    执行单元测试为了证明某段代码的执行结果和期望一致。
+
+    例如：
+    Assert类中的查看两个对象是否相等的方法：
+    public static void assertEquals(Object expected, Object actual)
+    public static void assertNotEquals(Object expected, Object actual)

@@ -9,14 +9,14 @@ public class j3_Object {
         System.out.println(stu);  // println(stu)这句代码到底发生了上面
         /*
         public void println(Object x) {
-            String s = String.valueOf(x);
+            String students.xml = String.valueOf(x);
             if (getClass() == PrintStream.class) {
                 // need to apply String.valueOf again since first invocation
                 // might return null
-                writeln(String.valueOf(s));
+                writeln(String.valueOf(students.xml));
             } else {
                 synchronized (this) {
-                    print(s);
+                    print(students.xml);
                     newLine();
                 }
             }

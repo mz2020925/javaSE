@@ -14,11 +14,11 @@ public class j7_use_varible_parameter {
         list1.set(1,"javaee");
 
         // public static <E> List<E> of(E... element) {} -- 返回由参数中指定的数组element构成的，大小不可变，且元素不可变的列表List
-        List<String> list2 = List.of("hello", "world", "java");
+        /*List<String> list2 = List.of("hello", "world", "java");*/  // jdk8不支持这种语法
 
         //public static <E> Set<E> of(E... elements) ：返回由参数中指定的数组element(给的数组不能有重复元素)构成的，
         // 大小不可变，且元素不可变(Set集合没有set根据索引修改元素的方法)的列表Set
-        Set<String> set = Set.of("hello", "world", "java");
+        /*Set<String> set = Set.of("hello", "world", "java");*/
 
     }
 }

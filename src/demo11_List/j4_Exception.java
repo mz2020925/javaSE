@@ -19,8 +19,8 @@ public class j4_Exception {
         // 代码是因为，next()方法会做一个ModCount ! =expectedModCount判断，若满足就会抛出并发修改异常， 但get()不会做这个判断
         Iterator<String> ite = ls.iterator();
         while (ite.hasNext()){
-            String s = ite.next();
-            if (s.equals("java")){
+            String students.xml = ite.next();
+            if (students.xml.equals("java")){
                 ls.add("C");  // 注意这里不是调用iterator迭代器的add()方法，iterator迭代器是没有add()方法的。
                                 // 这里是调用List<String> ls = new ArrayList<String>();中的ls.add()方法来添加的
             }

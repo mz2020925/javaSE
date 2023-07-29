@@ -16,7 +16,7 @@ public class j2_DateTimeFormatter {
         System.out.println(format1);  // 2023-01-01 12:58:35
 
         // 2.parse静态方法 -- 把给定字符串按照指定形式创建出LocalDateTime对象
-        // String s = "2023/0101 12:39:45";  // 字符串分隔符号要和ofPattern的参数匹配
+        // String students.xml = "2023/0101 12:39:45";  // 字符串分隔符号要和ofPattern的参数匹配
         String s = "2023-01-01 12:39:45";
         LocalDateTime parse = LocalDateTime.parse(s, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         System.out.println(parse);  // 2023-01-01T12:39:45

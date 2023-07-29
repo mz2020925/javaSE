@@ -5,7 +5,7 @@ import java.util.function.Function;
 public class apply_andThenDemo {
     public static void main(String[] args) {
         // 1.Lambda表达式
-        // convert("100", s->Integer.parseInt(s));
+        // convert("100", students.xml->Integer.parseInt(students.xml));
         // 2.方法引用符
         int num = convert("100", Integer::parseInt);
         System.out.println(num);

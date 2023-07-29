@@ -1,6 +1,6 @@
 package demo23_Lambda.j8_reference_construction;
 
-public class Student {
+class Student {
     String name;
     int age;
     public Student() {

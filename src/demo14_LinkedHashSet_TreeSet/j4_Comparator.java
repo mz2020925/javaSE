@@ -12,7 +12,6 @@ public class j4_Comparator {
             public int compare(j3_student o1, j3_student o2) {  // 这里面重写了compare方法，注意Comparator和Comparable
                 int num = o1.getAge() - o2.getAge();
                 int num2 = num == 0 ? o1.getName().compareTo(o2.getName()) : num;
-
                 return num2;
             }
         });

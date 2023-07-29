@@ -19,7 +19,7 @@ public class studentManager {
                 break;
             }
             switch (line) {
-                case "1" -> {
+                /*case "1" -> {  // jdk8不支持这样的语法
                     System.out.println("添加学生...");
                     addStudent(arrls);
                 }
@@ -32,6 +32,22 @@ public class studentManager {
                     updateStudent(arrls);
                 }
                 case "4" -> {
+                    System.out.println("查看所有学生...");
+                    printAllStudent(arrls);
+                }*/
+                case "1" : {
+                    System.out.println("添加学生...");
+                    addStudent(arrls);
+                }
+                case "2" : {
+                    System.out.println("删除学生...");
+                    deleteStudent(arrls);
+                }
+                case "3" : {
+                    System.out.println("修改学生...");
+                    updateStudent(arrls);
+                }
+                case "4" : {
                     System.out.println("查看所有学生...");
                     printAllStudent(arrls);
                 }
@@ -73,7 +89,7 @@ public class studentManager {
         } else {
             System.out.println("学号\t\t姓名\t\t年龄\t\t居住地");
             for (student obj : arrls) {
-                System.out.printf("%s\t\t%s\t%s岁\t%s\n", obj.getId(), obj.getName(), obj.getAge(), obj.getAddress());
+                System.out.printf("%students.xml\t\t%students.xml\t%s岁\t%students.xml\n", obj.getId(), obj.getName(), obj.getAge(), obj.getAddress());
             }
         }
     }

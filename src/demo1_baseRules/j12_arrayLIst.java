@@ -14,7 +14,7 @@ public class j12_arrayLIst {
         arrls.add("world");
         System.out.println(arrls);
 
-        arrls.add(1, "s");
+        arrls.add(1, "students.xml");
         System.out.println(arrls);
 
         arrls.remove("world");

@@ -1,0 +1,5 @@
+className1=demo26_Reflection.j10_reflect_txt.j10_Student
+className2=demo26_Reflection.j10_reflect_txt.j10_Teacher
+methodName1=study
+methodName2=teach
+

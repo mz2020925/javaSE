@@ -1,5 +1,7 @@
 package demo22_IP_UDP_TCP;
 
+import org.junit.Test;
+
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
@@ -14,17 +16,16 @@ import java.net.UnknownHostException;
  * String getHostAddress()--返回文本显示中的IP地址字符串
  * */
 public class j1_InetAddress {
-
     public static void main(String[] args) throws UnknownHostException {
         InetAddress address = InetAddress.getByName("DESKTOP-F0V40UH");  // 创建了对象
         InetAddress address1 = InetAddress.getByName("211.83.104.118");  // 两种方式都可得到对象，推荐这种方式
 
         // 获取此IP地址的主机名
-        String hostName = address.getHostName();
+        String hostName = address1.getHostName();
         System.out.println(hostName);
 
         // IP地址
-        String hostAddress = address.getHostAddress();
+        String hostAddress = address1.getHostAddress();
         System.out.println(hostAddress);
 
 

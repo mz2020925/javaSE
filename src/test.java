@@ -1,13 +1,19 @@
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Random;
-
 public class test {
 
     public static void main(String[] args) {
-        Random random = new Random();
-        int anInt = random.nextInt(0);
-        System.out.println(anInt);
-
+        int i = 5;
+        switch (i){
+            case 0:
+                System.out.println("执行case0");
+                break;
+            case 5:
+                System.out.println("执行case5");
+            case 10:
+                System.out.println("执行case10");
+            default:
+                System.out.println("执行default");
+        }
     }
+
+
 }

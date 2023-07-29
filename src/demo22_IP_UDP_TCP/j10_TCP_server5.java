@@ -26,7 +26,7 @@ public class j10_TCP_server5 {
 
         // 创建字符缓冲输出流对象
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("myFile/server4.txt"));
-        //创建接水管道对象
+        // 创建接水管道对象
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(accept.getInputStream()));
         String line;
         while ((line=bufferedReader.readLine())!=null){
