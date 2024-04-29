@@ -6,8 +6,8 @@ import java.util.Arrays;
 字节流：
 * 字节输出流对象--FileOutputStream(String name,boolean append)
 * 字节输入流对象--FileInputStream(String name)
-* 字节缓冲输出流对象--BufferedOutputStream(OutputStream out)->BuﬀeredOutputStream(new FileOutputStream(String name))
-* 字节缓冲输入流对象--BufferedInputStream(InputStream in)->BuﬀeredOutputStream(new FileInputStream(String name))
+* 字节缓冲输出流对象--BufferedOutputStream(OutputStream out)->BufferedOutputStream(new FileOutputStream(String name))
+* 字节缓冲输入流对象--BufferedInputStream(InputStream in)->BufferedOutputStream(new FileInputStream(String name))
 字符流：（由于字节流操作中文不是特别的方便，所以Java就提供字符流）
 * 编码：它使用指定的编码将得到的字符编码为字节--OutputStreamWriter(OutputStream out,String charset)->OutputStreamWriter(new FileOutputStream(String name))
 * 解码：它读取字节，并使用指定的编码将其解码为字符--InputStreamReader(InputStream in,String charset)->InputStreamReader(new FileInputStream(String name))

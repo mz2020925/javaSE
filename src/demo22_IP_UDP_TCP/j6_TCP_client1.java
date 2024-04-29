@@ -18,7 +18,7 @@ import java.net.Socket;
 public class j6_TCP_client1 {
     public static void main(String[] args) throws IOException {
         // 创建客户端Socket对象
-        Socket socket = new Socket("211.83.104.118", 10086);
+        Socket socket = new Socket("127.0.0.1", 10086);
         // 获取送水管道对象,并开始送水
         OutputStream socketOutputStream = socket.getOutputStream();
         socketOutputStream.write("hello,服务器,听得到吗?".getBytes());
