@@ -1,6 +1,0 @@
-1.使用Lambda必须要有接口，并且要求接口中有且仅有一个抽象方法
-
-2.必须有上下文环境，才能推导出Lambda对应的接口
-    2.1根据 局部变量的赋值 得知Lambda对应的接口 -- 如：Runnable r = () -> System.out.println("Lambda表达式");
-    2.2根据 调用方法的参数 得知Lambda对应的接口 -- 如：new Thread(() -> System.out.println("Lambda表达式")).start();
-
