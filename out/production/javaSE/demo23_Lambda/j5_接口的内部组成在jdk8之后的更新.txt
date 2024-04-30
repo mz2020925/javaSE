@@ -1,7 +1,0 @@
-常量
-    默认public static final修饰，并且通常省略不写
-抽象方法
-    默认public abstract修饰，并且通常省略不写
-默认方法(Java 8)
-静态方法(Java 8)
-私有方法(Java 9)
